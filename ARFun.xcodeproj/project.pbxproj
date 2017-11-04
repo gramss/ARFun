@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< refs/remotes/origin/master
 		257DFDA11FAE62F500D0577D /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257DFDA01FAE62F500D0577D /* Airplane.swift */; };
+=======
+		257DFDA31FAE7EDF00D0577D /* ARFun in Resources */ = {isa = PBXBuildFile; fileRef = 257DFDA21FAE7EDF00D0577D /* ARFun */; };
+		257DFDA51FAE7EED00D0577D /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257DFDA41FAE7EED00D0577D /* Airplane.swift */; };
+>>>>>>> test after pull matthias
 		FAC1F61A1FADE2CD008EC84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */; };
 		FAC1F61C1FADE2CD008EC84A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1F61B1FADE2CD008EC84A /* art.scnassets */; };
 		FAC1F61E1FADE2CD008EC84A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1F61D1FADE2CD008EC84A /* ViewController.swift */; };
@@ -17,7 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< refs/remotes/origin/master
 		257DFDA01FAE62F500D0577D /* Airplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+=======
+		257DFDA21FAE7EDF00D0577D /* ARFun */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ARFun; sourceTree = "<group>"; };
+		257DFDA41FAE7EED00D0577D /* Airplane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+>>>>>>> test after pull matthias
 		FAC1F6161FADE2CD008EC84A /* ARFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC1F61B1FADE2CD008EC84A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -43,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC1F6181FADE2CD008EC84A /* ARFun */,
+				257DFDA21FAE7EDF00D0577D /* ARFun */,
 				FAC1F6171FADE2CD008EC84A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +72,11 @@
 				FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */,
 				FAC1F61B1FADE2CD008EC84A /* art.scnassets */,
 				FAC1F61D1FADE2CD008EC84A /* ViewController.swift */,
+<<<<<<< refs/remotes/origin/master
 				257DFDA01FAE62F500D0577D /* Airplane.swift */,
+=======
+				257DFDA41FAE7EED00D0577D /* Airplane.swift */,
+>>>>>>> test after pull matthias
 				FAC1F61F1FADE2CD008EC84A /* Main.storyboard */,
 				FAC1F6221FADE2CD008EC84A /* Assets.xcassets */,
 				FAC1F6241FADE2CD008EC84A /* LaunchScreen.storyboard */,
@@ -129,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257DFDA31FAE7EDF00D0577D /* ARFun in Resources */,
 				FAC1F61C1FADE2CD008EC84A /* art.scnassets in Resources */,
 				FAC1F6261FADE2CD008EC84A /* LaunchScreen.storyboard in Resources */,
 				FAC1F6231FADE2CD008EC84A /* Assets.xcassets in Resources */,
@@ -145,7 +161,11 @@
 			files = (
 				FAC1F61E1FADE2CD008EC84A /* ViewController.swift in Sources */,
 				FAC1F61A1FADE2CD008EC84A /* AppDelegate.swift in Sources */,
+<<<<<<< refs/remotes/origin/master
 				257DFDA11FAE62F500D0577D /* Airplane.swift in Sources */,
+=======
+				257DFDA51FAE7EED00D0577D /* Airplane.swift in Sources */,
+>>>>>>> test after pull matthias
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
