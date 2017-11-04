@@ -21,14 +21,14 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXc-aO-LRo">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cl3-2r-YnT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cl3-2r-YnT">
                                 <rect key="frame" x="150" y="589" width="75" height="75"/>
                                 <state key="normal" image="icons8-chevron_down"/>
                                 <connections>
                                     <action selector="btnDown:" destination="BV1-FR-VrT" eventType="touchUpInside" id="6B8-Qu-BUU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krx-3T-FMB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krx-3T-FMB">
                                 <rect key="frame" x="124" y="492" width="126" height="75"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <state key="normal" image="icons8-chevron_up"/>
@@ -36,15 +36,15 @@
                                     <action selector="btnUp:" destination="BV1-FR-VrT" eventType="touchUpInside" id="9f7-ym-jxa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odc-gB-qrX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odc-gB-qrX">
                                 <rect key="frame" x="198" y="541" width="75" height="75"/>
                                 <state key="normal" image="icons8-chevron_right"/>
                                 <connections>
                                     <action selector="btnRight:" destination="BV1-FR-VrT" eventType="touchUpInside" id="CZf-n1-i4P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knJ-wh-TGW">
-                                <rect key="frame" x="72" y="541" width="134" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knJ-wh-TGW">
+                                <rect key="frame" x="101" y="541" width="75" height="75"/>
                                 <state key="normal" image="icons8-chevron_left"/>
                                 <connections>
                                     <action selector="btnLeft:" destination="BV1-FR-VrT" eventType="touchUpInside" id="fZM-LW-jVU"/>
@@ -53,16 +53,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZVO-nm-eBd" firstAttribute="bottom" secondItem="hXc-aO-LRo" secondAttribute="bottom" id="3VW-y8-rI4"/>
-                            <constraint firstItem="Cl3-2r-YnT" firstAttribute="top" secondItem="Krx-3T-FMB" secondAttribute="bottom" constant="22" id="4v6-Om-OGe"/>
-                            <constraint firstItem="Cl3-2r-YnT" firstAttribute="top" secondItem="odc-gB-qrX" secondAttribute="bottom" constant="-27" id="6aX-AT-Zs8"/>
-                            <constraint firstItem="Cl3-2r-YnT" firstAttribute="top" secondItem="knJ-wh-TGW" secondAttribute="bottom" constant="-27" id="Gb4-Oe-oEW"/>
-                            <constraint firstItem="hXc-aO-LRo" firstAttribute="top" secondItem="ZVO-nm-eBd" secondAttribute="top" id="KCM-bl-OQd"/>
-                            <constraint firstItem="odc-gB-qrX" firstAttribute="leading" secondItem="knJ-wh-TGW" secondAttribute="trailing" constant="-8" id="N9B-zZ-tYv"/>
-                            <constraint firstItem="hXc-aO-LRo" firstAttribute="leading" secondItem="ZVO-nm-eBd" secondAttribute="leading" id="OhP-oo-Igb"/>
-                            <constraint firstItem="ZVO-nm-eBd" firstAttribute="trailing" secondItem="hXc-aO-LRo" secondAttribute="trailing" id="TOY-nD-apR"/>
-                            <constraint firstItem="ZVO-nm-eBd" firstAttribute="bottom" secondItem="Cl3-2r-YnT" secondAttribute="bottom" constant="3" id="lfQ-NE-TKE"/>
-                            <constraint firstItem="Cl3-2r-YnT" firstAttribute="leading" secondItem="knJ-wh-TGW" secondAttribute="trailing" constant="-56" id="n9K-Ln-ovJ"/>
+                            <constraint firstAttribute="trailing" secondItem="hXc-aO-LRo" secondAttribute="trailing" id="4zz-CX-1Ef"/>
+                            <constraint firstItem="knJ-wh-TGW" firstAttribute="leading" secondItem="ZVO-nm-eBd" secondAttribute="leading" constant="101" id="7jz-78-xfW"/>
+                            <constraint firstItem="Krx-3T-FMB" firstAttribute="top" secondItem="ZVO-nm-eBd" secondAttribute="top" constant="472" id="8qn-xv-vxj"/>
+                            <constraint firstItem="Krx-3T-FMB" firstAttribute="centerX" secondItem="hXc-aO-LRo" secondAttribute="centerX" id="9fu-Ws-Fgb"/>
+                            <constraint firstItem="Krx-3T-FMB" firstAttribute="leading" secondItem="ZVO-nm-eBd" secondAttribute="leading" constant="124" id="JHg-1X-mby"/>
+                            <constraint firstItem="knJ-wh-TGW" firstAttribute="top" secondItem="ZVO-nm-eBd" secondAttribute="top" constant="521" id="Kg8-Bj-cqI"/>
+                            <constraint firstItem="odc-gB-qrX" firstAttribute="leading" secondItem="knJ-wh-TGW" secondAttribute="trailing" constant="22" id="VHe-rP-rbg"/>
+                            <constraint firstItem="hXc-aO-LRo" firstAttribute="bottom" secondItem="ZVO-nm-eBd" secondAttribute="bottom" id="XFC-gc-mtg"/>
+                            <constraint firstItem="Krx-3T-FMB" firstAttribute="centerX" secondItem="Cl3-2r-YnT" secondAttribute="centerX" id="fXv-yV-wUo"/>
+                            <constraint firstItem="Cl3-2r-YnT" firstAttribute="top" secondItem="Krx-3T-FMB" secondAttribute="bottom" constant="22" id="i5g-td-LWS"/>
+                            <constraint firstItem="hXc-aO-LRo" firstAttribute="leading" secondItem="gPa-qA-TYg" secondAttribute="leading" id="mwB-Zd-ngH"/>
+                            <constraint firstItem="hXc-aO-LRo" firstAttribute="top" secondItem="ZVO-nm-eBd" secondAttribute="top" id="t66-Zq-i0f"/>
+                            <constraint firstItem="knJ-wh-TGW" firstAttribute="top" secondItem="odc-gB-qrX" secondAttribute="top" id="ySZ-rc-Njd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZVO-nm-eBd"/>
                     </view>
