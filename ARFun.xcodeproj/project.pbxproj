@@ -70,7 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */,
+				17E610B51FAE7EF00083CFD3 /* Airplane.swift */,
+				17E610BD1FAE7EFD0083CFD3 /* AppDelegate.swift */,
+				17E610C01FAE7EFE0083CFD3 /* appicon */,
 				FAC1F61B1FADE2CD008EC84A /* art.scnassets */,
+				17E610C21FAE7EFE0083CFD3 /* texture.png */,
 				FAC1F61D1FADE2CD008EC84A /* ViewController.swift */,
 <<<<<<< refs/remotes/origin/master
 				257DFDA01FAE62F500D0577D /* Airplane.swift */,
@@ -146,9 +150,18 @@
 			files = (
 				257DFDA31FAE7EDF00D0577D /* ARFun in Resources */,
 				FAC1F61C1FADE2CD008EC84A /* art.scnassets in Resources */,
+				17E610C91FAE7EFE0083CFD3 /* art.scnassets in Resources */,
+				17E610CE1FAE7EFE0083CFD3 /* ship.scn in Resources */,
+				17E610CC1FAE7EFE0083CFD3 /* Base.lproj in Resources */,
 				FAC1F6261FADE2CD008EC84A /* LaunchScreen.storyboard in Resources */,
+				17E610CF1FAE7EFE0083CFD3 /* texture.png in Resources */,
+				17E610CD1FAE7EFE0083CFD3 /* appicon in Resources */,
 				FAC1F6231FADE2CD008EC84A /* Assets.xcassets in Resources */,
+				17E610C41FAE7EFE0083CFD3 /* Info.plist in Resources */,
+				17E610C71FAE7EFE0083CFD3 /* starship.dae in Resources */,
 				FAC1F6211FADE2CD008EC84A /* Main.storyboard in Resources */,
+				17E610CB1FAE7EFE0083CFD3 /* Assets.xcassets in Resources */,
+				17E610C51FAE7EFE0083CFD3 /* asteroid.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E610CA1FAE7EFE0083CFD3 /* AppDelegate.swift in Sources */,
+				17E610C81FAE7EFE0083CFD3 /* ViewController.swift in Sources */,
 				FAC1F61E1FADE2CD008EC84A /* ViewController.swift in Sources */,
+				17E610C61FAE7EFE0083CFD3 /* Airplane.swift in Sources */,
+				17E610D01FAE7EFE0083CFD3 /* ViewController+Actions.swift in Sources */,
 				FAC1F61A1FADE2CD008EC84A /* AppDelegate.swift in Sources */,
 <<<<<<< refs/remotes/origin/master
 				257DFDA11FAE62F500D0577D /* Airplane.swift in Sources */,
