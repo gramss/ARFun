@@ -14,6 +14,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
+    @IBAction func btnLeft(_ sender: UIButton) {
+    }
+    @IBAction func btnRight(_ sender: UIButton) {
+    }
+    @IBAction func btnUp(_ sender: UIButton) {
+    }
+    @IBAction func btnDown(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
