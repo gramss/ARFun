@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257DFDA11FAE62F500D0577D /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257DFDA01FAE62F500D0577D /* Airplane.swift */; };
 		FAC1F61A1FADE2CD008EC84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */; };
 		FAC1F61C1FADE2CD008EC84A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1F61B1FADE2CD008EC84A /* art.scnassets */; };
 		FAC1F61E1FADE2CD008EC84A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1F61D1FADE2CD008EC84A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		257DFDA01FAE62F500D0577D /* Airplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
 		FAC1F6161FADE2CD008EC84A /* ARFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC1F61B1FADE2CD008EC84A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FAC1F6191FADE2CD008EC84A /* AppDelegate.swift */,
 				FAC1F61B1FADE2CD008EC84A /* art.scnassets */,
 				FAC1F61D1FADE2CD008EC84A /* ViewController.swift */,
+				257DFDA01FAE62F500D0577D /* Airplane.swift */,
 				FAC1F61F1FADE2CD008EC84A /* Main.storyboard */,
 				FAC1F6221FADE2CD008EC84A /* Assets.xcassets */,
 				FAC1F6241FADE2CD008EC84A /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				FAC1F61E1FADE2CD008EC84A /* ViewController.swift in Sources */,
 				FAC1F61A1FADE2CD008EC84A /* AppDelegate.swift in Sources */,
+				257DFDA11FAE62F500D0577D /* Airplane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +283,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J5N5LH7MS;
+				DEVELOPMENT_TEAM = P9M5SZ6UKW;
 				INFOPLIST_FILE = ARFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ARFun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,10 +299,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J5N5LH7MS;
+				DEVELOPMENT_TEAM = P9M5SZ6UKW;
 				INFOPLIST_FILE = ARFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ARFun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
